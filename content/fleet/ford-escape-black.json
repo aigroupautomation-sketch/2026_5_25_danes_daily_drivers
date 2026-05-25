@@ -1,0 +1,53 @@
+{
+  "slug": "ford-escape-black",
+  "name": "Ford Escape",
+  "tagline": "The blacked-out daily",
+  "year": 2018,
+  "make": "Ford",
+  "model": "Escape",
+  "trim": "S",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Gasoline",
+    "mpg": "30+ MPG",
+    "drivetrain": "AWD",
+    "features": [
+      "Blacked-Out Wheels",
+      "Apple CarPlay",
+      "Backup Camera",
+      "Bluetooth",
+      "Heated Seats",
+      "AWD Traction Control"
+    ]
+  },
+  "pricing": {
+    "perWeek": 450,
+    "youngDriverFeePerWeek": 100,
+    "additionalDriverPerWeek": 75,
+    "excessMileagePerMile": 0.25,
+    "weeklyMileageIncluded": 1500
+  },
+  "images": {
+    "hero": "/images/fleet/escape-black-1.jpg",
+    "gallery": [
+      "/images/fleet/escape-black-1.jpg",
+      "/images/fleet/escape-black-2.jpg"
+    ]
+  },
+  "included": [
+    "1500 miles/week",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "AWD traction for all weather"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$100/week",
+    "Additional driver: +$75/week",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.25/mile"
+  ],
+  "description": "Clean, blacked-out, and ready for anything. The Ford Escape SE Sport is the sleeper of the fleet \u2014 AWD grip, 28 MPG, and a look that doesn't advertise it's a rental. Perfect for airport runs, road trips, or just getting around without the hassle.",
+  "order": 6
+}

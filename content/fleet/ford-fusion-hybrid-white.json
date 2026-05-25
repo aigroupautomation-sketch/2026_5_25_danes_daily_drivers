@@ -1,0 +1,53 @@
+{
+  "slug": "ford-fusion-hybrid-white",
+  "name": "Ford Fusion Hybrid",
+  "tagline": "The clean cruiser",
+  "year": 2010,
+  "make": "Ford",
+  "model": "Fusion Hybrid",
+  "trim": "Hybrid",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Hybrid",
+    "mpg": "30+ MPG",
+    "drivetrain": "FWD",
+    "features": [
+      "Hybrid Engine",
+      "Sync Infotainment",
+      "Bluetooth",
+      "Backup Camera",
+      "Leather Seats",
+      "Sunroof"
+    ]
+  },
+  "pricing": {
+    "perWeek": 350,
+    "youngDriverFeePerWeek": 100,
+    "additionalDriverPerWeek": 75,
+    "excessMileagePerMile": 0.2,
+    "weeklyMileageIncluded": 1750
+  },
+  "images": {
+    "hero": "/images/fleet/fusion-white-1.jpg",
+    "gallery": [
+      "/images/fleet/fusion-white-1.jpg",
+      "/images/fleet/fusion-white-2.jpg"
+    ]
+  },
+  "included": [
+    "1750 miles/week",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Hybrid fuel savings"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$100/week",
+    "Additional driver: +$75/week",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.2/mile"
+  ],
+  "description": "Quiet, comfortable, and effortlessly efficient. The Ford Fusion Hybrid in white is the sedan that handles Strip traffic, highway miles, and everything in between at 41 MPG. It looks sharp, drives smooth, and comes back cleaner than it left.",
+  "order": 4
+}

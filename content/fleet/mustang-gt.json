@@ -1,0 +1,50 @@
+{
+  "slug": "mustang-gt",
+  "name": "2024 Ford Mustang GT",
+  "tagline": "Born for the Strip",
+  "year": 2024,
+  "make": "Ford",
+  "model": "Mustang",
+  "trim": "GT Premium Convertible",
+  "specs": {
+    "seats": 4,
+    "doors": 2,
+    "transmission": "Automatic",
+    "fuelType": "Gasoline",
+    "mpg": "21 MPG",
+    "drivetrain": "RWD",
+    "features": ["Retractable Soft Top", "SYNC 4 Infotainment", "Apple CarPlay", "Android Auto", "B&O Sound System", "Selectable Drive Modes"]
+  },
+  "pricing": {
+    "perDay": 149,
+    "sampleTrip3Days": 447,
+    "youngDriverFeePerDay": 25,
+    "additionalDriverPerDay": 15,
+    "excessMileagePerMile": 0.30,
+    "dailyMileageIncluded": 150
+  },
+  "images": {
+    "hero": "/images/fleet/mustang-gt-hero.jpg",
+    "gallery": [
+      "/images/fleet/mustang-gt-exterior.jpg",
+      "/images/fleet/mustang-gt-interior.jpg",
+      "/images/fleet/mustang-gt-dashboard.jpg",
+      "/images/fleet/mustang-gt-top-down.jpg"
+    ]
+  },
+  "included": [
+    "150 miles/day",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Convertible top operation guide",
+    "Complimentary car freshener"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$25/day",
+    "Additional driver: +$15/day",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.30/mile"
+  ],
+  "description": "Top down, sun up, Las Vegas Boulevard. The Mustang GT Convertible is the only way to experience the Strip properly. 5.0L V8, 450 horsepower, and the kind of rumble that turns heads at every red light. You didn't fly to Vegas to drive something forgettable.",
+  "order": 3
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "ford-fusion-hybrid-blue",
+  "name": "Ford Fusion Hybrid",
+  "tagline": "The gig-ready cruiser",
+  "year": 2019,
+  "make": "Ford",
+  "model": "Fusion Hybrid",
+  "trim": "SE Hybrid",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Hybrid",
+    "mpg": "40+ MPG",
+    "drivetrain": "FWD",
+    "features": [
+      "Hybrid Engine",
+      "Roof Rack",
+      "Apple CarPlay",
+      "Android Auto",
+      "Backup Camera",
+      "Lane Assist"
+    ]
+  },
+  "pricing": {
+    "perWeek": 450,
+    "youngDriverFeePerWeek": 100,
+    "additionalDriverPerWeek": 75,
+    "excessMileagePerMile": 0.2,
+    "weeklyMileageIncluded": 1750
+  },
+  "images": {
+    "hero": "/images/fleet/fusion-blue-1.jpg",
+    "gallery": [
+      "/images/fleet/fusion-blue-1.jpg",
+      "/images/fleet/fusion-blue-2.jpg"
+    ]
+  },
+  "included": [
+    "1750 miles/week",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Roof rack for gear",
+    "Hybrid fuel savings"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$100/week",
+    "Additional driver: +$75/week",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.2/mile"
+  ],
+  "description": "The newest and most loaded Fusion in the fleet. Lightning Blue with a roof rack pre-installed \u2014 pack your bikes, boards, or camping gear and go. 43 MPG and Apple CarPlay make the drive part of the experience, not just the means to an end.",
+  "order": 1
+}

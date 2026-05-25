@@ -1,0 +1,50 @@
+{
+  "slug": "jeep-wrangler",
+  "name": "2024 Jeep Wrangler",
+  "tagline": "The canyon crawler",
+  "year": 2024,
+  "make": "Jeep",
+  "model": "Wrangler",
+  "trim": "Sport S 4WD",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Gasoline",
+    "mpg": "22 MPG",
+    "drivetrain": "4WD",
+    "features": ["Removable Doors", "Fold-Down Windshield", "Uconnect 4 Infotainment", "Apple CarPlay", "Android Auto", "Trail-Rated 4x4"]
+  },
+  "pricing": {
+    "perDay": 109,
+    "sampleTrip3Days": 327,
+    "youngDriverFeePerDay": 25,
+    "additionalDriverPerDay": 15,
+    "excessMileagePerMile": 0.25,
+    "dailyMileageIncluded": 200
+  },
+  "images": {
+    "hero": "/images/fleet/jeep-wrangler-hero.jpg",
+    "gallery": [
+      "/images/fleet/jeep-wrangler-exterior.jpg",
+      "/images/fleet/jeep-wrangler-interior.jpg",
+      "/images/fleet/jeep-wrangler-dashboard.jpg",
+      "/images/fleet/jeep-wrangler-offroad.jpg"
+    ]
+  },
+  "included": [
+    "200 miles/day",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Off-road trail map of Red Rock Canyon",
+    "Pre-trip 4WD orientation"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$25/day",
+    "Additional driver: +$15/day",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.25/mile"
+  ],
+  "description": "Red Rock Canyon, Valley of Fire, Death Valley. The Jeep Wrangler is the only car in Vegas that can handle everything the desert throws at you. Trail-rated 4WD, removable doors, and the kind of adventure-readiness that makes every overlook worth the drive.",
+  "order": 4
+}

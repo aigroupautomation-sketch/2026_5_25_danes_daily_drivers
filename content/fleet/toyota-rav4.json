@@ -1,0 +1,50 @@
+{
+  "slug": "toyota-rav4",
+  "name": "2024 Toyota RAV4",
+  "tagline": "The all-weather workhorse",
+  "year": 2024,
+  "make": "Toyota",
+  "model": "RAV4",
+  "trim": "XLE AWD",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Gasoline",
+    "mpg": "30 MPG",
+    "drivetrain": "AWD",
+    "features": ["Apple CarPlay", "Android Auto", "Adaptive Cruise Control", "Lane Departure Warning", "Heated Front Seats", "Blind Spot Monitor"]
+  },
+  "pricing": {
+    "perDay": 79,
+    "sampleTrip3Days": 237,
+    "youngDriverFeePerDay": 25,
+    "additionalDriverPerDay": 15,
+    "excessMileagePerMile": 0.25,
+    "dailyMileageIncluded": 250
+  },
+  "images": {
+    "hero": "/images/fleet/toyota-rav4-hero.jpg",
+    "gallery": [
+      "/images/fleet/toyota-rav4-exterior.jpg",
+      "/images/fleet/toyota-rav4-interior.jpg",
+      "/images/fleet/toyota-rav4-dashboard.jpg",
+      "/images/fleet/toyota-rav4-trunk.jpg"
+    ]
+  },
+  "included": [
+    "250 miles/day",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Full-size spare tire",
+    "Roof cargo carrier compatible"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$25/day",
+    "Additional driver: +$15/day",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.25/mile"
+  ],
+  "description": "The RAV4 is the most practical car we own — and we mean that as a genuine compliment. AWD grip for Mt. Charleston, cargo room for a family of five plus luggage, 30 MPG for the long haul to Zion. It simply handles whatever Las Vegas throws at it.",
+  "order": 2
+}

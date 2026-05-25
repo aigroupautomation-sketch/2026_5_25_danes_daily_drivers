@@ -1,0 +1,50 @@
+{
+  "slug": "tesla-model-3",
+  "name": "2024 Tesla Model 3",
+  "tagline": "The Vegas showstopper",
+  "year": 2024,
+  "make": "Tesla",
+  "model": "Model 3",
+  "trim": "Long Range AWD",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Electric",
+    "range": "358 mi range",
+    "drivetrain": "AWD",
+    "features": ["Autopilot", "Heated Seats", "Panoramic Glass Roof", "Premium Audio", "Wireless Charging", "Over-the-Air Updates"]
+  },
+  "pricing": {
+    "perDay": 129,
+    "sampleTrip3Days": 387,
+    "youngDriverFeePerDay": 25,
+    "additionalDriverPerDay": 15,
+    "excessMileagePerMile": 0.30,
+    "dailyMileageIncluded": 200
+  },
+  "images": {
+    "hero": "/images/fleet/tesla-model-3-hero.jpg",
+    "gallery": [
+      "/images/fleet/tesla-model-3-exterior.jpg",
+      "/images/fleet/tesla-model-3-interior.jpg",
+      "/images/fleet/tesla-model-3-dashboard.jpg",
+      "/images/fleet/tesla-model-3-trunk.jpg"
+    ]
+  },
+  "included": [
+    "200 miles/day",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Supercharger access (pay-per-use)",
+    "Contactless digital key delivery"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$25/day",
+    "Additional driver: +$15/day",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.30/mile"
+  ],
+  "description": "Zero emissions. Zero noise. 100% head-turning. The Tesla Model 3 Long Range brings Silicon Valley cool to the Las Vegas Strip. Autopilot-ready, enough range to conquer Red Rock and Valley of Fire — and back. The car people photograph when you park it.",
+  "order": 1
+}

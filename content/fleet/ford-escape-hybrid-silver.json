@@ -1,0 +1,54 @@
+{
+  "slug": "ford-escape-hybrid-silver",
+  "name": "Ford Escape Hybrid",
+  "tagline": "The dependable workhorse",
+  "year": 2009,
+  "make": "Ford",
+  "model": "Escape Hybrid",
+  "trim": "Hybrid",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Hybrid",
+    "mpg": "30+ MPG",
+    "drivetrain": "4WD",
+    "features": [
+      "Hybrid Engine",
+      "4WD System",
+      "Roof Rack",
+      "Trailer Hitch",
+      "Bluetooth",
+      "Backup Camera"
+    ]
+  },
+  "pricing": {
+    "perWeek": 300,
+    "youngDriverFeePerWeek": 100,
+    "additionalDriverPerWeek": 75,
+    "excessMileagePerMile": 0.25,
+    "weeklyMileageIncluded": 1500
+  },
+  "images": {
+    "hero": "/images/fleet/escape-silver-1.jpg",
+    "gallery": [
+      "/images/fleet/escape-silver-1.jpg",
+      "/images/fleet/escape-silver-2.jpg"
+    ]
+  },
+  "included": [
+    "1500 miles/week",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "4WD for off-road trails",
+    "Roof rack + trailer hitch"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$100/week",
+    "Additional driver: +$75/week",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.25/mile"
+  ],
+  "description": "The only hybrid SUV with 4WD on the lot. The Ford Escape Hybrid in silver is built for explorers \u2014 Red Rock Canyon trails, Valley of Fire back roads, or a weekend in Zion. 34 MPG means you get there and back without a second fuel stop.",
+  "order": 2
+}

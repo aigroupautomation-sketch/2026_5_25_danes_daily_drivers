@@ -1,0 +1,50 @@
+{
+  "slug": "chevy-tahoe",
+  "name": "2024 Chevrolet Tahoe",
+  "tagline": "The group hauler",
+  "year": 2024,
+  "make": "Chevrolet",
+  "model": "Tahoe",
+  "trim": "LT 4WD",
+  "specs": {
+    "seats": 8,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Gasoline",
+    "mpg": "21 MPG",
+    "drivetrain": "4WD",
+    "features": ["3-Row Seating", "Power Liftgate", "Apple CarPlay", "Android Auto", "Rear Entertainment System", "Heated Second Row", "Hands-Free Liftgate"]
+  },
+  "pricing": {
+    "perDay": 159,
+    "sampleTrip3Days": 477,
+    "youngDriverFeePerDay": 25,
+    "additionalDriverPerDay": 15,
+    "excessMileagePerMile": 0.30,
+    "dailyMileageIncluded": 200
+  },
+  "images": {
+    "hero": "/images/fleet/chevy-tahoe-hero.jpg",
+    "gallery": [
+      "/images/fleet/chevy-tahoe-exterior.jpg",
+      "/images/fleet/chevy-tahoe-interior.jpg",
+      "/images/fleet/chevy-tahoe-third-row.jpg",
+      "/images/fleet/chevy-tahoe-cargo.jpg"
+    ]
+  },
+  "included": [
+    "200 miles/day",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Airport pickup coordination",
+    "Luggage loading assist"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$25/day",
+    "Additional driver: +$15/day",
+    "Optional full coverage upgrade",
+    "Excess mileage: $0.30/mile"
+  ],
+  "description": "Eight passengers. Airport to hotel, hotel to stadium, stadium back to the Strip. The Tahoe LT is the answer for groups, families, and anyone who hates coordinating two separate cars. Enough cargo room for all your luggage — even the checked bags you paid extra for.",
+  "order": 5
+}
