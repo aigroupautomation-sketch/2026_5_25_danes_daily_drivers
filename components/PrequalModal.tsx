@@ -241,6 +241,10 @@ function Step2() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+      <input type="hidden" {...register('gigIdScreenshotBase64')} />
+      <input type="hidden" {...register('earningsProofScreenshotBase64')} />
+      <input type="hidden" {...register('licenseFrontScreenshotBase64')} />
+      <input type="hidden" {...register('licenseBackScreenshotBase64')} />
       {/* Q1: Gig Worker Status */}
       <fieldset className="border border-border-color p-4 rounded-xl space-y-3 bg-white">
         <legend className="text-sm font-semibold text-ink px-2">
