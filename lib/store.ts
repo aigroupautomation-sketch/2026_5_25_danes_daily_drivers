@@ -10,14 +10,18 @@ export interface PrequalFormData {
   phone?: string
   isGigWorker?: 'yes' | 'no'
   gigIdScreenshotName?: string
+  gigIdScreenshotBase64?: string
   nonGigOccupation?: string
   activeGigPlatform?: string
   isActivelyGigWorkingThisWeek?: 'yes' | 'no'
   canProvideProofOfEarnings?: 'yes' | 'no'
   earningsProofScreenshotName?: string
+  earningsProofScreenshotBase64?: string
   hasValidLicense?: 'yes' | 'no'
   licenseFrontScreenshotName?: string
+  licenseFrontScreenshotBase64?: string
   licenseBackScreenshotName?: string
+  licenseBackScreenshotBase64?: string
   plannedDuration?: string
   vehicle?: string
 }

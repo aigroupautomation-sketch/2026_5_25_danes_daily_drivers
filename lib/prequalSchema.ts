@@ -14,6 +14,7 @@ export const step2Schema = z.object({
     required_error: 'Please answer if you are currently working on gig apps',
   }),
   gigIdScreenshotName: z.string().optional(),
+  gigIdScreenshotBase64: z.string().optional(),
   nonGigOccupation: z.string().optional(),
   activeGigPlatform: z.string().optional(),
   isActivelyGigWorkingThisWeek: z.enum(['yes', 'no'], {
@@ -23,11 +24,14 @@ export const step2Schema = z.object({
     required_error: 'Please answer if you can provide proof of weekly earnings',
   }),
   earningsProofScreenshotName: z.string().optional(),
+  earningsProofScreenshotBase64: z.string().optional(),
   hasValidLicense: z.enum(['yes', 'no'], {
     required_error: 'Please answer if you have a valid drivers license',
   }),
   licenseFrontScreenshotName: z.string().optional(),
+  licenseFrontScreenshotBase64: z.string().optional(),
   licenseBackScreenshotName: z.string().optional(),
+  licenseBackScreenshotBase64: z.string().optional(),
   plannedDuration: z.enum(['1 week', '2 weeks', '1 month', '2-4 months', 'not sure yet'], {
     required_error: 'Please select how long you plan on using the vehicle',
   }),

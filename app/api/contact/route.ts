@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       try {
         const text = await response.text()
         console.log('n8n webhook response text:', text)
-      } catch (err) {
+      } catch {
         console.log('Could not read n8n response body')
       }
     }

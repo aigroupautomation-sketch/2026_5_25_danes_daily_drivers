@@ -44,13 +44,20 @@ interface FileUploadZoneProps {
   id: string
   label: string
   fileName?: string
-  onChange: (fileName: string) => void
+  onChange: (fileName: string, base64Data: string) => void
 }
 
 function FileUploadZone({ id, label, fileName, onChange }: FileUploadZoneProps) {
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
-      onChange(e.target.files[0].name)
+      const file = e.target.files[0]
+      const name = file.name
+      const reader = new FileReader()
+      reader.onloadend = () => {
+        const base64String = reader.result as string
+        onChange(name, base64String)
+      }
+      reader.readAsDataURL(file)
     }
   }
 
@@ -182,14 +189,18 @@ function Step2() {
     defaultValues: {
       isGigWorker: formData.isGigWorker,
       gigIdScreenshotName: formData.gigIdScreenshotName,
+      gigIdScreenshotBase64: formData.gigIdScreenshotBase64,
       nonGigOccupation: formData.nonGigOccupation,
       activeGigPlatform: formData.activeGigPlatform,
       isActivelyGigWorkingThisWeek: formData.isActivelyGigWorkingThisWeek,
       canProvideProofOfEarnings: formData.canProvideProofOfEarnings,
       earningsProofScreenshotName: formData.earningsProofScreenshotName,
+      earningsProofScreenshotBase64: formData.earningsProofScreenshotBase64,
       hasValidLicense: formData.hasValidLicense,
       licenseFrontScreenshotName: formData.licenseFrontScreenshotName,
+      licenseFrontScreenshotBase64: formData.licenseFrontScreenshotBase64,
       licenseBackScreenshotName: formData.licenseBackScreenshotName,
+      licenseBackScreenshotBase64: formData.licenseBackScreenshotBase64,
       plannedDuration: formData.plannedDuration as '1 week' | '2 weeks' | '1 month' | '2-4 months' | 'not sure yet' | undefined,
       vehicle: formData.vehicle,
     },
@@ -251,7 +262,10 @@ function Step2() {
             id="gig-id-upload"
             label="Upload a screenshot of your gig worker ID screen:"
             fileName={gigIdScreenshotName}
-            onChange={(name) => setValue('gigIdScreenshotName', name)}
+            onChange={(name, base64) => {
+              setValue('gigIdScreenshotName', name)
+              setValue('gigIdScreenshotBase64', base64)
+            }}
           />
         )}
       </fieldset>
@@ -332,7 +346,10 @@ function Step2() {
                 id="earnings-upload"
                 label="Upload a screenshot of your weekly earnings statement:"
                 fileName={earningsProofScreenshotName}
-                onChange={(name) => setValue('earningsProofScreenshotName', name)}
+                onChange={(name, base64) => {
+                  setValue('earningsProofScreenshotName', name)
+                  setValue('earningsProofScreenshotBase64', base64)
+                }}
               />
             )}
           </fieldset>
@@ -361,13 +378,19 @@ function Step2() {
               id="license-front-upload"
               label="License (Front Side):"
               fileName={licenseFrontScreenshotName}
-              onChange={(name) => setValue('licenseFrontScreenshotName', name)}
+              onChange={(name, base64) => {
+                setValue('licenseFrontScreenshotName', name)
+                setValue('licenseFrontScreenshotBase64', base64)
+              }}
             />
             <FileUploadZone
               id="license-back-upload"
               label="License (Back Side):"
               fileName={licenseBackScreenshotName}
-              onChange={(name) => setValue('licenseBackScreenshotName', name)}
+              onChange={(name, base64) => {
+                setValue('licenseBackScreenshotName', name)
+                setValue('licenseBackScreenshotBase64', base64)
+              }}
             />
           </div>
         )}
