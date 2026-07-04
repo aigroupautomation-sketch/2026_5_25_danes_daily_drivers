@@ -26,8 +26,8 @@
     "perWeek": 400,
     "youngDriverFeePerWeek": 100,
     "additionalDriverPerWeek": 75,
-    "excessMileagePerMile": 0.2,
-    "weeklyMileageIncluded": 1750
+    "excessMileagePerMile": 0,
+    "weeklyMileageIncluded": 999999
   },
   "images": {
     "hero": "/images/fleet/cmax-blue-1.jpg",
@@ -37,7 +37,7 @@
     ]
   },
   "included": [
-    "1750 miles/week",
+    "Unlimited Mileage",
     "Basic liability coverage",
     "24/7 roadside assistance",
     "Hybrid fuel savings included"
@@ -45,8 +45,7 @@
   "notIncluded": [
     "Young driver fee (under 25): +$100/week",
     "Additional driver: +$75/week",
-    "Optional full coverage upgrade",
-    "Excess mileage: $0.2/mile"
+    "Optional full coverage upgrade"
   ],
   "description": "42 MPG and proud of it. The Ford C-Max Hybrid in bold blue is the smartest car in the fleet for long hauls \u2014 Vegas to LA, Vegas to Grand Canyon, back without a fuel stop. Spacious, practical, and impossible to forget on the road.",
   "order": 5

@@ -26,8 +26,8 @@
     "perWeek": 350,
     "youngDriverFeePerWeek": 100,
     "additionalDriverPerWeek": 75,
-    "excessMileagePerMile": 0.2,
-    "weeklyMileageIncluded": 1750
+    "excessMileagePerMile": 0,
+    "weeklyMileageIncluded": 999999
   },
   "images": {
     "hero": "/images/fleet/fusion-white-1.jpg",
@@ -37,7 +37,7 @@
     ]
   },
   "included": [
-    "1750 miles/week",
+    "Unlimited Mileage",
     "Basic liability coverage",
     "24/7 roadside assistance",
     "Hybrid fuel savings"
@@ -45,8 +45,7 @@
   "notIncluded": [
     "Young driver fee (under 25): +$100/week",
     "Additional driver: +$75/week",
-    "Optional full coverage upgrade",
-    "Excess mileage: $0.2/mile"
+    "Optional full coverage upgrade"
   ],
   "description": "Quiet, comfortable, and effortlessly efficient. The Ford Fusion Hybrid in white is the sedan that handles Strip traffic, highway miles, and everything in between at 41 MPG. It looks sharp, drives smooth, and comes back cleaner than it left.",
   "order": 4

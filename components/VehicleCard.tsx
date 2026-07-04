@@ -66,7 +66,7 @@ export default function VehicleCard({ vehicle, featured = false }: VehicleCardPr
               <span className="text-ink-soft text-sm">/week</span>
             </div>
             <p className="text-xs text-ink-soft mt-0.5">
-              {vehicle.pricing.weeklyMileageIncluded.toLocaleString()} miles included per week
+              Unlimited Mileage
             </p>
           </div>
         </div>

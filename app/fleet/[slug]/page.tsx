@@ -175,7 +175,7 @@ export default function VehicleDetailPage({ params }: Props) {
                   <span className="text-ink-soft text-sm">/week</span>
                 </div>
                 <p className="text-xs text-ink-soft mb-5">
-                  {vehicle.pricing.weeklyMileageIncluded.toLocaleString()} miles included · all fees shown upfront
+                  Unlimited Mileage · all fees shown upfront
                 </p>
 
                 {/* Spec pills */}

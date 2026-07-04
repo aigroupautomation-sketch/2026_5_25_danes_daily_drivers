@@ -26,8 +26,8 @@
     "perWeek": 400,
     "youngDriverFeePerWeek": 100,
     "additionalDriverPerWeek": 75,
-    "excessMileagePerMile": 0.25,
-    "weeklyMileageIncluded": 1500
+    "excessMileagePerMile": 0,
+    "weeklyMileageIncluded": 999999
   },
   "images": {
     "hero": "/images/fleet/lincoln-mkz-1.jpg",
@@ -37,7 +37,7 @@
     ]
   },
   "included": [
-    "1500 miles/week",
+    "Unlimited Mileage",
     "Basic liability coverage",
     "24/7 roadside assistance",
     "Luxury vehicle deep clean before pickup"
@@ -45,8 +45,7 @@
   "notIncluded": [
     "Young driver fee (under 25): +$100/week",
     "Additional driver: +$75/week",
-    "Optional full coverage upgrade",
-    "Excess mileage: $0.25/mile"
+    "Optional full coverage upgrade"
   ],
   "description": "Lincoln luxury at a fraction of the price. The MKZ Hybrid is the only car in the fleet with cooled seats, a panoramic sunroof, and a cabin that actually hushes the outside world. 41 MPG means you spend your money on the experience, not the pump.",
   "order": 3

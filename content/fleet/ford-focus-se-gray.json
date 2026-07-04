@@ -23,11 +23,11 @@
     ]
   },
   "pricing": {
-    "perWeek": 450,
+    "perWeek": 400,
     "youngDriverFeePerWeek": 100,
     "additionalDriverPerWeek": 75,
-    "excessMileagePerMile": 0.25,
-    "weeklyMileageIncluded": 1500
+    "excessMileagePerMile": 0,
+    "weeklyMileageIncluded": 999999
   },
   "images": {
     "hero": "/images/fleet/ford-focus-1.jpg",
@@ -40,7 +40,7 @@
     ]
   },
   "included": [
-    "1500 miles/week",
+    "Unlimited Mileage",
     "Basic liability coverage",
     "24/7 roadside assistance",
     "Excellent fuel economy for city driving"
@@ -48,8 +48,7 @@
   "notIncluded": [
     "Young driver fee (under 25): +$100/week",
     "Additional driver: +$75/week",
-    "Optional full coverage upgrade",
-    "Excess mileage: $0.25/mile"
+    "Optional full coverage upgrade"
   ],
   "description": "A reliable, efficient, and comfortable drive. The 2018 Ford Focus SE is the ideal ride for daily commutes, road trips, or gig apps. Packed with user-friendly tech, standard cruise control, and superb gas mileage, it ensures a smooth and cost-effective journey across Southern California.",
   "order": 7

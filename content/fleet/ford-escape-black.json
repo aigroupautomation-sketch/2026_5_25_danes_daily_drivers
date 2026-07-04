@@ -26,8 +26,8 @@
     "perWeek": 450,
     "youngDriverFeePerWeek": 100,
     "additionalDriverPerWeek": 75,
-    "excessMileagePerMile": 0.25,
-    "weeklyMileageIncluded": 1500
+    "excessMileagePerMile": 0,
+    "weeklyMileageIncluded": 999999
   },
   "images": {
     "hero": "/images/fleet/escape-black-1.jpg",
@@ -37,7 +37,7 @@
     ]
   },
   "included": [
-    "1500 miles/week",
+    "Unlimited Mileage",
     "Basic liability coverage",
     "24/7 roadside assistance",
     "AWD traction for all weather"
@@ -45,8 +45,7 @@
   "notIncluded": [
     "Young driver fee (under 25): +$100/week",
     "Additional driver: +$75/week",
-    "Optional full coverage upgrade",
-    "Excess mileage: $0.25/mile"
+    "Optional full coverage upgrade"
   ],
   "description": "Clean, blacked-out, and ready for anything. The Ford Escape SE Sport is the sleeper of the fleet \u2014 AWD grip, 28 MPG, and a look that doesn't advertise it's a rental. Perfect for airport runs, road trips, or just getting around without the hassle.",
   "order": 6
