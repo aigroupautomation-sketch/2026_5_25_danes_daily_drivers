@@ -19,11 +19,11 @@ const steps = [
     qa: [
       {
         q: 'Why do you ask about my age?',
-        a: "Nevada law and our insurance policy require a minimum age of 21. Drivers 21–24 pay a $25/day young-driver fee. We show this upfront — not at the counter.",
+        a: "California law and our insurance policy require a minimum age of 21. Drivers 21–24 pay a $50/week young-driver fee. We show this upfront — not at the counter.",
       },
       {
         q: 'What if I have a foreign license?',
-        a: 'International licenses are accepted. If your license is not in English, please bring an International Driving Permit.',
+        a: 'International licenses are NOT accepted. Clients must provide a U.S drivers license.',
       },
     ],
   },
@@ -53,7 +53,7 @@ const steps = [
     qa: [
       {
         q: 'Where do I pick up the car?',
-        a: "We deliver to the Strip, Harry Reid Airport (LAS), and Henderson. Delivery is $25 within the Las Vegas Valley. Self-pickup is also available at our main lot.",
+        a: "In person pick up for every car at or near Oceanside, Ca.",
       },
       {
         q: 'What if I need to extend my rental?',
