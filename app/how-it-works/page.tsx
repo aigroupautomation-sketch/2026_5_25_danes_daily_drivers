@@ -49,7 +49,7 @@ const steps = [
     number: '03',
     title: 'Drive away',
     description:
-      "Pickup is contactless. You'll receive the car's location, access instructions, and a digital key delivery — no counter, no paperwork line, no upsell. The car is the exact model, color, and trim from your confirmation. If for any reason the confirmed vehicle is unavailable, we'll contact you before pickup — never surprise you at the lot.",
+      "In-Person Handover: We will coordinate a secure pickup location with you. To ensure a seamless check-in, physical keys are released once the rental contract is executed and payment is successfully processed.",
     qa: [
       {
         q: 'Where do I pick up the car?',
