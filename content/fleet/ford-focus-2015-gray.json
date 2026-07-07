@@ -1,0 +1,51 @@
+{
+  "slug": "ford-focus-2015-gray",
+  "name": "2015 Ford Focus",
+  "tagline": "The premium gray city sedan",
+  "year": 2015,
+  "make": "Ford",
+  "model": "Focus",
+  "trim": "Titanium",
+  "specs": {
+    "seats": 5,
+    "doors": 4,
+    "transmission": "Automatic",
+    "fuelType": "Gasoline",
+    "mpg": "34+ MPG",
+    "drivetrain": "FWD",
+    "features": [
+      "Leather Seats",
+      "Premium Sony Sound System",
+      "Backup Camera",
+      "Bluetooth Connectivity",
+      "Heated Front Seats & Steering Wheel",
+      "Keyless Entry & Push Button Start"
+    ]
+  },
+  "pricing": {
+    "perWeek": 400,
+    "youngDriverFeePerWeek": 100,
+    "additionalDriverPerWeek": 75,
+    "excessMileagePerMile": 0,
+    "weeklyMileageIncluded": 999999
+  },
+  "images": {
+    "hero": "/images/fleet/focus-2015-gray-1.jpg",
+    "gallery": [
+      "/images/fleet/focus-2015-gray-1.jpg"
+    ]
+  },
+  "included": [
+    "Unlimited Mileage",
+    "Basic liability coverage",
+    "24/7 roadside assistance",
+    "Leather interior & premium features"
+  ],
+  "notIncluded": [
+    "Young driver fee (under 25): +$100/week",
+    "Additional driver: +$75/week",
+    "Optional full coverage upgrade"
+  ],
+  "description": "Comfortable, loaded, and highly efficient. The 2015 Ford Focus Titanium features a premium leather interior, advanced tech, and outstanding fuel economy, making it a perfect choice for commuting, road trips, or gig apps. This car is $400 a week.",
+  "order": 8
+}
