@@ -22,7 +22,7 @@ const steps = [
     icon: Key,
     title: 'Pick up and start earning',
     description:
-      'Contactless pickup. The exact car from your confirmation — clean, fueled, and ready. Get on the road the same day and start making money.',
+      'In-Person Handover: We will coordinate a secure pickup location with you. To ensure a seamless check-in, physical keys are released once the rental contract is executed and payment is successfully processed.',
     number: '03',
   },
 ]
