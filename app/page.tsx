@@ -140,10 +140,10 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-3">Our Fleet</p>
             <h2 className="font-display text-ink mb-4" style={{ fontSize: 'clamp(1.875rem, 3.5vw, 2.75rem)', fontWeight: 600 }} id="fleet-heading">
-              Six vehicles. All gig-work ready.
+              {vehicles.length === 8 ? 'Eight' : vehicles.length === 6 ? 'Six' : vehicles.length} vehicles. All gig-work ready.
             </h2>
             <p className="text-ink-soft text-lg max-w-xl mx-auto">
-              Every car is photographed, maintained, and approved for DoorDash, Uber, Lyft, Amazon Flex, and more. The car you see is the car you get.
+              {"Every vehicle is photographed, maintained, and ready to help you earn. Whether you're delivering with DoorDash, Uber Eats, Amazon Flex, or driving for Uber and Lyft (on eligible vehicles), we've got an option for you."}
             </p>
           </div>
 
