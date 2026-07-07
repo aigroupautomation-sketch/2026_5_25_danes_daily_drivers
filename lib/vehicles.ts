@@ -43,6 +43,7 @@ import fordFusionWhite from '@/content/fleet/ford-fusion-hybrid-white.json'
 import fordEscapeSilver from '@/content/fleet/ford-escape-hybrid-silver.json'
 import lincolnMkz from '@/content/fleet/lincoln-mkz-hybrid.json'
 import fordFocusGray from '@/content/fleet/ford-focus-se-gray.json'
+import fordFusionBlue from '@/content/fleet/ford-fusion-hybrid-blue.json'
 
 export const vehicles: Vehicle[] = [
   fordEscapeBlack as Vehicle,
@@ -51,6 +52,7 @@ export const vehicles: Vehicle[] = [
   fordEscapeSilver as Vehicle,
   lincolnMkz as Vehicle,
   fordFocusGray as Vehicle,
+  fordFusionBlue as Vehicle,
 ].sort((a, b) => a.order - b.order)
 
 export function getVehicleBySlug(slug: string): Vehicle | undefined {
